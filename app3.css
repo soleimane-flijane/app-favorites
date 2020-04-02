@@ -1,0 +1,337 @@
+body {
+    margin: 0;
+    background-color:rgb(211, 211, 211);   
+    background-size: 60% 100%;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 10vh;
+    background-color: rgb(155, 155, 155)
+}
+
+#logo {
+    height: 30px;
+    padding: 30px;
+    margin-left: -20px;
+    }
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header li {
+    padding: 0 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: rgb(255, 0, 0); 
+}
+
+    .container__image {
+        display: inline-block;
+        vertical-align: top;
+        width: 46%;
+        margin: 20px 30px 0 0;
+        
+        
+    }
+    
+    .container__text {
+        display: inline-block;
+        width: 46%;
+        font-size: 25px;
+        color: rgb(10, 10, 10);
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    table.YTBTable {
+		border: 6px solid #FF0000;
+		background-color: #FFFFFF;
+		width: 40%;
+		text-align: center;
+		border-collapse: collapse;
+		margin-left:auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+
+	table.YTBTable td, table.YTBTable th {
+		border: 1px solid #FFFFFF;
+		padding: 3px 2px;
+	}
+	
+	table.YTBTable tbody td {
+		font-size: 13px;
+		font-weight: bold;
+	}
+	
+	table.YTBTable tr:nth-child(even) {
+		background: #F5F5F5;
+	}
+	
+	table.YTBTable td:nth-child(even) {
+		background: #F5F5F5;
+	}
+	
+	table.YTBTable thead {
+		background: #FF0012;
+		background: -moz-linear-gradient(top, #ff404d 0%, #ff1929 66%, #FF0012 100%);
+		background: -webkit-linear-gradient(top, #ff404d 0%, #ff1929 66%, #FF0012 100%);
+		background: linear-gradient(to bottom, #ff404d 0%, #ff1929 66%, #FF0012 100%);
+		border-bottom: 0px solid #444444;
+	}
+	
+	table.YTBTable thead th {
+		font-size: 18px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-align: center;
+	}
+	
+	table.YTBTable tfoot td {
+		font-size: 14px;
+	}
+	
+	table.YTBTable tfoot .links {
+		text-align: right;
+	}
+	
+	table.YTBTable tfoot .links a{
+		display: inline-block;
+		background: #1C6EA4;
+		color: #FFFFFF;
+		padding: 2px 8px;
+		border-radius: 5px;
+	}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+}
+
+.footer-distributed{
+	background: #444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* s */
+
+.footer-distributed h3{
+	color:  #000000;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+	color:  #fc0000;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* formulaire contact */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/*  */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}
